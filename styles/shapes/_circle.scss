@@ -4,4 +4,9 @@
     background-color: red;
     border-radius: 50%;
     display: inline-block;
-  }
+
+    &:hover {
+      cursor: pointer;
+      background-color: green;
+    }
+}

@@ -1,18 +1,17 @@
 // combined state icons
-
 import StateIcon from './stateIcon';
 
 const Icons = ({
-    numIcons
+    inputLabels,
+    setInputState
 }) => {
 
     return (
         <div className='icons-wrapper'>
             {
-                Array(numIcons).fill()
-                    .map( (_, i) => (
-                        <span className='icon' key={`icon-${i}`}>
-                            <StateIcon />
+                inputLabels.map( ({ inputText, inputFieldText }, index ) => (
+                        <span className='icon' key={`icon-${index}`}>
+                            <StateIcon inputState={index} setInputState={setInputState} iconTitle={inputText} />
                         </span>
                     ))
             }

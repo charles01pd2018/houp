@@ -1,4 +1,8 @@
+// partials
 import Icons from '../icon/icons';
+
+// dependencies
+import { useState } from 'react';
 
 const Inputs = ({
     inputLabels
@@ -6,10 +10,13 @@ const Inputs = ({
 
     // add regex for input fields
 
+    // set the default input state to the first question in the array
+    const [ inputState, setInputState ] = useState(0);
+
+    const [ inputText, inputFieldText ] = [ inputLabels[inputState].inputText, inputLabels[inputState].inputFieldText ]
+
     return (
         <>
-            {
-                inputLabels.map( ({ inputText, inputFieldText }) => (
                     <div className='component-wrapper'>
                         <div className='input-field-wrapper'>
                             <span className='input-field-title'>
@@ -28,10 +35,8 @@ const Inputs = ({
                             </div>
                         </div>
                         
-                        <Icons numIcons={3}/>
+                        <Icons inputLabels={inputLabels} setInputState={setInputState}/>
                     </div>
-                ))
-            }
         </>
     );
 }
