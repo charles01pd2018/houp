@@ -1,0 +1,11 @@
+// global styles
+@import "base", "globals";
+
+// layout
+@import "layout/header", "layout/footer";
+
+// components
+@import "components/customerForm";
+
+// shapes
+@import "shapes/circle";

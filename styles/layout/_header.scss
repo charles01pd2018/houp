@@ -1,0 +1,16 @@
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+
+    border-bottom: 2px solid black;
+
+    .header-branding {
+        margin: 1rem;
+        
+        .header-branding-title {
+            font-size: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.customer-form-wrapper {
+    width: 100%;
+    background-color: lightgray;
+    padding: 1.5rem;
+    margin-top: 3rem;
+
+    border: 20px solid blue;
+
+    .input-field-wrapper {
+        width: 85%;
+        border: 10px solid black; // !!!!
+        
+        .input-field-title {
+            font-size: 200%;
+        }
+        
+        .input-field-area {
+            padding-top: 5rem;
+            border: 5px solid red; // !!!!
+
+            .input-text {
+                width: 80%;
+                height: 3.5rem;
+            }
+        }
+    }
+
+    .icons-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        border: 5px solid yellow; // !!!!
+        text-align: center;
+        justify-content: center;
+
+        .icon {
+            padding-top: 1rem;
+        }
+    }
+}
