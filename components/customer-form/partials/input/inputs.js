@@ -4,6 +4,7 @@ import Icons from '../icon/icons';
 // dependencies
 import { useState } from 'react';
 
+// input prompt section
 const Inputs = ({
     inputLabels
 }) => {
@@ -35,7 +36,7 @@ const Inputs = ({
                             </div>
                         </div>
                         
-                        <Icons inputLabels={inputLabels} setInputState={setInputState}/>
+                        <Icons inputLabels={inputLabels} inputState={inputState} setInputState={setInputState}/>
                     </div>
         </>
     );

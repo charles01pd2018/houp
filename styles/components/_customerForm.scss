@@ -34,7 +34,26 @@
         justify-content: center;
 
         .icon {
-            padding-top: 1rem;
+            padding-top: 2rem;
+            border: 3px solid orange;
+
+            .bubble {
+                display: inline-flex;
+                position: absolute;
+                height: 3rem;
+                width: 8rem;
+                border-radius: 1rem;
+                padding: 0.5rem;
+                margin-left: 1.5rem;
+                align-items: center;
+                justify-content: center;
+                background-color: lightcoral;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: green;
+                }
+            }
         }
     }
 }

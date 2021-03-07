@@ -1,4 +1,3 @@
-
 const Header = ({
     companyName,
     companyLogo

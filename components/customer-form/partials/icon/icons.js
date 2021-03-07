@@ -1,8 +1,10 @@
-// combined state icons
+// partials
 import StateIcon from './stateIcon';
 
+// combined state icons
 const Icons = ({
     inputLabels,
+    inputState,
     setInputState
 }) => {
 
@@ -11,7 +13,7 @@ const Icons = ({
             {
                 inputLabels.map( ({ inputText, inputFieldText }, index ) => (
                         <span className='icon' key={`icon-${index}`}>
-                            <StateIcon inputState={index} setInputState={setInputState} iconTitle={inputText} />
+                            <StateIcon iconIndex={index} inputState={inputState} setInputState={setInputState} iconTitle={inputText} />
                         </span>
                     ))
             }

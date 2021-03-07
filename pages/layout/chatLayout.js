@@ -1,1 +1,1 @@
-// this module will be the layout of the page when on call, aka connected
+// layout of the page when on call, aka connected

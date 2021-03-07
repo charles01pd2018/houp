@@ -5,6 +5,10 @@
     border-radius: 50%;
     display: inline-block;
 
+    &.active {
+      background-color: blue !important;
+    }
+
     &:hover {
       cursor: pointer;
       background-color: green;
