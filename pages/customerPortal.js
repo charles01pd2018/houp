@@ -10,13 +10,15 @@ const CustomerPortal = ({
     
     return (
         <>
+        <Layout>
             <Head>
                 <title>houp: Customer Portal</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             
             <CustomerForm />
-ß        </>
+        </Layout>
+        </>
     );
 }
 
