@@ -4,6 +4,8 @@ import Head from 'next/head';
 //compnents
 import CustomerForm from '../components/customer-form/customerForm';
 
+import Filler from './filler';
+
 const CustomerPortal = ({
     layout: Layout
 }) => {
@@ -17,6 +19,8 @@ const CustomerPortal = ({
             </Head>
             
             <CustomerForm />
+
+            <Filler />
         </Layout>
         </>
     );

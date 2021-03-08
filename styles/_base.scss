@@ -1,6 +1,7 @@
 .container {
   min-height: 75vh;
   padding: 0 4rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,8 +19,12 @@
 
 .component-wrapper {
   display: flex;
+  padding: 3rem;
+}
 
-  border: 10px solid green; // !!!
+.filler {
+  text-align: center;
+  min-height: 50vh;
 }
 
 .title a {

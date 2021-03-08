@@ -1,13 +1,18 @@
 .header-container {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: 2px 5px 2px gray;
     z-index: 99;
-
-    border-bottom: 2px solid black;
+    
+    * {
+        height: 100%;
+    }
 
     .header-branding {
-        margin: 1rem;
+        text-align: center;;
         
         .header-branding-title {
             font-size: 1.5rem;
