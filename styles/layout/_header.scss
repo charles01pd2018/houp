@@ -6,16 +6,35 @@
     background-color: white;
     box-shadow: 2px 5px 2px gray;
     z-index: 99;
-    
+
     * {
         height: 100%;
     }
 
     .header-branding {
-        text-align: center;;
+        text-align: center;
+        align-items: center;
         
         .header-branding-title {
-            font-size: 1.5rem;
+            display: inline-flex;
+            max-width: max-content;
+            margin: 0 auto;
+            align-items: center;
+            overflow: hidden;
+            font-size: 1.5rem;            
+            
+            animation: typing 6s steps(100, end);
         }
     }
 }
+
+// animations
+@keyframes typing {
+    from { 
+        width: 0 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
