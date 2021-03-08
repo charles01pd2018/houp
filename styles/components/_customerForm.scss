@@ -1,3 +1,12 @@
+@keyframes bubble-state-change {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .customer-form-wrapper {
     min-width: 100%;
     background-color: lightgray;
@@ -41,6 +50,9 @@
                 align-items: center;
                 justify-content: center;
                 background-color: lightcoral;
+
+                animation-name: bubble-state-change;
+                animation-duration: 0.5s;
 
                 &:hover {
                     cursor: pointer;
