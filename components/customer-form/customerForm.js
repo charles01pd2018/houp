@@ -1,12 +1,13 @@
 // partials
 import Inputs from './partials/input/inputs';
+import { useState } from 'react';
 
 const CustomerForm = () => {
 
     // input labels that are made from the businesses pov
     // fetch via some sort of server
     // we will use a template design for now
-    const inputLabels = [
+    const [ inputLabels, setInputLabels ] = useState([
         {
             inputText: "Name",
             inputFieldText: "enter your name"
@@ -23,7 +24,7 @@ const CustomerForm = () => {
             inputText: "Phone Number",
             inputFieldText: "best number to reach you"
         }
-    ];
+    ]);
 
         return (
             <div className='container'>
