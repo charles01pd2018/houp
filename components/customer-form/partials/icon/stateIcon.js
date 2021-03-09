@@ -34,7 +34,7 @@ const StateIcon = ({
     return (
         <>
             <span className='icon'>
-                <span className={classNames('circle', iconIndex === inputState && 'active')} 
+                <span className={classNames('circle', iconIndex === inputState && 'circle-active')} 
                     ref={iconRef} onClick={iconClick} onMouseEnter={openBubble} onMouseLeave={closeBubble}>
                     {
                         isBubbleOpen === true ? <Bubble bubbleTitle={iconTitle} /> : ( null )

@@ -5,7 +5,7 @@
     border-radius: 50%;
     display: inline-block;
 
-    &.active {
+    &.circle-active {
       animation-name: circle-state-change;
       animation-duration: 0.55s;
       background-color: blue;
