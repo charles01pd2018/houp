@@ -2,5 +2,5 @@
 
 // return company server status
 export const getServerStatus = () => {
-    return true;
+    return false;
 }
