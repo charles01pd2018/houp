@@ -18,9 +18,9 @@ export default () => {
   const [ serverStatus, setServerStatus ] = useState(getServerStatus());
 
   // testing server status
-    useEffect( () => {
-      setTimeout( () => { setServerStatus(true) }, 3000);
-    })
+    // useEffect( () => {
+    //   setTimeout( () => { setServerStatus(true) }, 3000);
+    // })
 
   return (
     <>
