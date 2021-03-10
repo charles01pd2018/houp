@@ -10,7 +10,7 @@ const Loading = ({
                 <h1>{loadingTitle}</h1>
             </span>
             <span className='loading-icon'>
-                <img src="/favicon.svg" alt="houp Logo Animation" className={`${animationType}-loading`}/>
+                <img src="/favicon.svg" alt="houp Logo Animation" className={`${animationType}-loading`} />
              </span>
         </div>
     );
