@@ -1,0 +1,29 @@
+<svg viewBox="0 0 508 508" xmlns="http://www.w3.org/2000/svg" aria-labelledby='houp-animation' id='svg' role='presentation'>
+    <title id='houp-animation' lang='en'>
+        Houp Logo Animation for Loading Screen
+    </title>
+
+    <g id="houp-logo" filter="url(#houp-logo-filter)">
+        <g id="green-houp">
+            <path id="green-houp-path" fill="#7ED957" d="M171.663 0C79.0658 0 4 75.0658 4 167.663C4 260.261 79.0658 335.32 171.663 335.32C264.261 335.32 339.32 260.261 339.32 167.663C339.32 75.0658 264.261 0 171.663 0ZM171.663 300.394C98.3567 300.394 38.9269 240.97 38.9269 167.663C38.9269 94.3567 98.3567 34.9334 171.663 34.9334C244.97 34.9334 304.394 94.3567 304.394 167.663C304.394 240.97 244.97 300.394 171.663 300.394Z" />               
+        </g>
+        <g id="orange-houp">
+            <path id="orange-houp-path" fill="#FFBD59" stroke="#FFBD59" d="M336.337 164.68C243.745 164.68 168.68 239.745 168.68 332.337C168.68 424.934 243.745 500 336.337 500C428.934 500 504 424.934 504 332.337C504 239.745 428.934 164.68 336.337 164.68ZM336.337 465.073C263.03 465.073 203.606 405.643 203.606 332.343C203.606 259.036 263.03 199.606 336.337 199.606C409.643 199.606 469.073 259.036 469.073 332.343C469.073 405.643 409.643 465.073 336.337 465.073Z" />
+        </g>
+    </g>
+    
+    <defs>
+        <filter id="houp-logo-filter" x="0" y="0" width="508" height="508" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+    </defs>
+
+    <style>
+    </style>
+</svg>
