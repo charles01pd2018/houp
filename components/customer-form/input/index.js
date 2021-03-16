@@ -33,10 +33,10 @@ const Inputs = ({
                     id={inputText}
                     autoFocus/>
                 </div>
-            
+            </div>
             <Icons inputLabels={inputLabels} inputState={inputState} setInputState={setInputState}/>
-        </div>
         </>
+
     );
 }
 

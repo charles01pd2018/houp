@@ -1,29 +1,33 @@
 .header-container {
-    width: 100%;
-    height: 4rem;
-    position: fixed;
-    top: 0;
-    background-color: white;
-    box-shadow: 2px 5px 2px gray;
-    z-index: 99;
+    margin-bottom: 3rem;
 
-    * {
-        height: 100%;
-    }
+    .header-wrapper  {
+        width: 100%;
+        height: 4rem;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        box-shadow: 2px 5px 2px gray;
+        z-index: 99;
 
-    .header-branding {
-        text-align: center;
-        align-items: center;
-        
-        .header-branding-title {
-            display: inline-flex;
-            max-width: max-content;
-            margin: 0 auto;
+        * {
+            height: 100%;
+        }
+
+        .header-branding {
+            text-align: center;
             align-items: center;
-            overflow: hidden;
-            font-size: 1.5rem;            
             
-            animation: typing 6s steps(100, end);
+            .header-branding-title {
+                display: inline-flex;
+                max-width: max-content;
+                margin: 0 auto;
+                align-items: center;
+                overflow: hidden;
+                font-size: 1.5rem;            
+                
+                animation: typing 6s steps(100, end);
+            }
         }
     }
 }
