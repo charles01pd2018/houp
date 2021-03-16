@@ -2,7 +2,7 @@
 import Head from 'next/head';
 
 //compnents
-import CustomerForm from '../components/customer-form/customerForm';
+import CustomerForm from '../components/customer-form';
 
 const CustomerPortal = ({
     layout: Layout

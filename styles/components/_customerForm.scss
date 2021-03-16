@@ -1,4 +1,6 @@
 .customer-form-wrapper {
+    display: flex;
+    padding: 3em;
     min-width: 100%;
     background-color: lightgray;
     min-height: 33rem;
@@ -34,7 +36,6 @@
             padding-top: 2rem;
 
             .bubble {
-                display: inline-flex;
                 position: absolute;
                 height: 3rem;
                 width: 8rem;
