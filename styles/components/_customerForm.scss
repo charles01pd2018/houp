@@ -5,15 +5,11 @@
     background-color: lightgray;
     min-height: 33rem;
 
-    animation-name: fade-in;
+    animation: fade-in;
     animation-duration: 1s;
 
     .input-field-wrapper {
         flex-basis: 85%;
-        
-        .input-field-title {
-            font-size: 200%;
-        }
         
         .input-field-area {
             margin-top: 10rem;

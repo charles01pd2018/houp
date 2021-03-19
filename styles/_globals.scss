@@ -1,9 +1,38 @@
+/*--------------------------------------------------------------
+# Site Variables
+--------------------------------------------------------------*/
 html,
 body {
-  padding: 0;
-  margin: 0;
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.15em;
+}
+
+// tablet (5% smaller than Desktop)
+@media(max-width: 1025px) {
+  h1 {
+    font-size: 2.85em;
+  }
+  
+  h2 {
+    font-size: 2.375em;
+  }
+  
+  p {
+    font-size: 1.0925em;
+  }
 }
 
 a {
@@ -11,6 +40,29 @@ a {
   text-decoration: none;
 }
 
+// mobile (10% smaller than Desktop)
+@media(max-width: 800px) {
+  h1 {
+    font-size: 2.7em;
+  }
+  
+  h2 {
+    font-size: 2.25em;
+  }
+  
+  p {
+    font-size: 1.035em;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Site Customization
+--------------------------------------------------------------*/
 * {
   box-sizing: border-box;
 }
