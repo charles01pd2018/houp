@@ -18,7 +18,6 @@ const Icons = ({
                     ))
             }
         </div>
-
     );
 }
 
